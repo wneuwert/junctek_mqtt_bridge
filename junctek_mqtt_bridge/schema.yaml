@@ -1,0 +1,11 @@
+tcp_host: str
+tcp_port: int
+mqtt_host: str
+mqtt_port: int
+mqtt_user:
+  type: str
+mqtt_password:
+  type: str
+  required: true
+  secret: true
+mqtt_topic: str

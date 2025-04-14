@@ -1,0 +1,7 @@
+tcp_host: "192.168.178.110"
+tcp_port: 9999
+mqtt_host: "192.168.178.23"
+mqtt_port: 1883
+mqtt_user: ""
+mqtt_password: ""
+mqtt_topic: "junctek/data"

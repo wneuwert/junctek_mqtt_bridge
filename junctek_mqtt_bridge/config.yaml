@@ -1,0 +1,16 @@
+name: Junctek MQTT Bridge
+version: "1.0"
+slug: junctek_mqtt_bridge
+description: "Liest Daten vom ELFIN 11A (Junctek KL-F110) per TCP und sendet sie via MQTT an Home Assistant."
+startup: application
+boot: auto
+ingress: false
+host_network: true
+init: false
+privileged: false
+image: null
+panel_icon: "mdi:battery"
+arch:
+  - amd64
+  - armv7
+  - aarch64
